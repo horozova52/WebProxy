@@ -1,7 +1,6 @@
 version: "3.9"
 
 services:
-
   cassandra:
     image: cassandra:4.1
     container_name: cassandra
@@ -22,6 +21,38 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+
+  dw1:
+    build:
+      context: .
+      dockerfile: DWServer/Dockerfile
+    container_name: dw1
+    depends_on:
+      - cassandra
+    ports:
+      - "5128:80"
+
+  dw2:
+    build:
+      context: .
+      dockerfile: DWServer/Dockerfile
+    container_name: dw2
+    depends_on:
+      - cassandra
+    ports:
+      - "6001:80"
+
+  proxy:
+    build:
+      context: .
+      dockerfile: ProxyServer/Dockerfile
+    container_name: proxy
+    ports:
+      - "8085:80"
+    depends_on:
+      - dw1
+      - dw2
+
 volumes:
   cassandra_data:
   redis_data:

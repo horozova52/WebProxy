@@ -12,7 +12,7 @@ namespace DWServer.Repositories
         {
             // Conectare la Cassandra
             var cluster = Cluster.Builder()
-                .AddContactPoint("localhost")
+                .AddContactPoint("cassandra")
                 .WithPort(9042)
                 .Build();
 

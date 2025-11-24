@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "ProxyServer.Controllers.ProxyController",
+    "Method": "GetEmployee",
+    "RelativePath": "Proxy/employee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProxyServer.Controllers.ProxyController",
+    "Method": "GetEmployees",
+    "RelativePath": "Proxy/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
