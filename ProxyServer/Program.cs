@@ -1,4 +1,5 @@
 using ProxyServer.Services;
+using StackExchange.Redis;
 
 namespace ProxyServer
 {
@@ -20,9 +21,24 @@ namespace ProxyServer
 
             var app = builder.Build();
 
+            if (args.Contains("test-redis"))
+            {
+                try
+                {
+                    var redis = ConnectionMultiplexer.Connect("redis:6379,abortConnect=false");
+                    Console.WriteLine("REDIS OK");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("REDIS FAIL");
+                    Console.WriteLine(ex.Message);
+                }
+                return;
+            }
+
             // Configure the HTTP request pipeline.
-            
-                app.UseSwagger();
+
+            app.UseSwagger();
                 app.UseSwaggerUI();
             
             app.UseHttpsRedirection();

@@ -48,10 +48,12 @@ services:
       dockerfile: ProxyServer/Dockerfile
     container_name: proxy
     ports:
-      - "8085:80"
+      - "8085:8080"
     depends_on:
       - dw1
       - dw2
+      - redis
+      - cassandra
 
 volumes:
   cassandra_data:

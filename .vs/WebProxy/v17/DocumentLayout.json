@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\proxyserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\proxyserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D58558A-EA46-4075-AE9D-AE46AE8430D7}|Shared\\Shared.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2D58558A-EA46-4075-AE9D-AE46AE8430D7}|Shared\\Shared.csproj|solutionrelative:shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\proxyserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\proxyserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\dwserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -59,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{2D58558A-EA46-4075-AE9D-AE46AE8430D7}|Shared\\Shared.csproj|solutionrelative:shared\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\loadbalancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\loadbalancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\dwserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\dwserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 610,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,54 +106,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DWServer\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DWServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T20:28:18.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProxyServer\\Properties\\launchSettings.json",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProxyServer\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-24T23:06:51.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Program.cs",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
               "RelativeToolTip": "ProxyServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T23:06:47.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Dockerfile",
-              "RelativeDocumentMoniker": "ProxyServer\\Dockerfile",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Dockerfile",
-              "RelativeToolTip": "ProxyServer\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-24T22:53:29.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DWServer",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
-              "RelativeDocumentMoniker": "DWServer\\DWServer.csproj",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
-              "RelativeToolTip": "DWServer\\DWServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T22:16:36.868Z",
               "EditorCaption": ""
             },
             {
@@ -167,46 +158,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Shared",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\Shared\\Shared.csproj",
-              "RelativeDocumentMoniker": "Shared\\Shared.csproj",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\Shared\\Shared.csproj",
-              "RelativeToolTip": "Shared\\Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T22:16:56.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProxyServer",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
-              "RelativeDocumentMoniker": "ProxyServer\\ProxyServer.csproj",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
-              "RelativeToolTip": "ProxyServer\\ProxyServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T22:17:02.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\appsettings.json",
+              "RelativeDocumentMoniker": "DWServer\\appsettings.json",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\appsettings.json",
+              "RelativeToolTip": "DWServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T12:20:58.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "ProxyServer\\Services\\RedisCacheService.cs",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "ProxyServer\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:20:52.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Dockerfile",
               "RelativeDocumentMoniker": "DWServer\\Dockerfile",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Dockerfile",
               "RelativeToolTip": "DWServer\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-24T22:01:35.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Dockerfile",
+              "RelativeDocumentMoniker": "ProxyServer\\Dockerfile",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Dockerfile",
+              "RelativeToolTip": "ProxyServer\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T22:53:29.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shared.csproj",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\Shared\\Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\Shared.csproj",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\Shared\\Shared.csproj",
+              "RelativeToolTip": "Shared\\Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T22:16:56.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProxyServer.csproj",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
+              "RelativeDocumentMoniker": "ProxyServer\\ProxyServer.csproj",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
+              "RelativeToolTip": "ProxyServer\\ProxyServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T22:17:02.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DWServer.csproj",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
+              "RelativeDocumentMoniker": "DWServer\\DWServer.csproj",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
+              "RelativeToolTip": "DWServer\\DWServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T22:16:36.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Program.cs",
               "RelativeDocumentMoniker": "DWServer\\Program.cs",
@@ -214,12 +254,11 @@
               "RelativeToolTip": "DWServer\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAASwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:20:14.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T20:20:14.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CassandraEmployeeRepository.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Repository\\CassandraEmployeeRepository.cs",
               "RelativeDocumentMoniker": "DWServer\\Repository\\CassandraEmployeeRepository.cs",
@@ -227,24 +266,22 @@
               "RelativeToolTip": "DWServer\\Repository\\CassandraEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:58:55.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T20:58:55.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ProxyServer",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
               "RelativeDocumentMoniker": "ProxyServer\\ProxyServer.csproj",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\ProxyServer.csproj",
               "RelativeToolTip": "ProxyServer\\ProxyServer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T21:32:44.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:32:44.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ProxyController.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Controllers\\ProxyController.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Controllers\\ProxyController.cs",
@@ -256,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\Shared\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Shared\\Models\\Employee.cs",
@@ -268,19 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RedisCacheService.cs",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\RedisCacheService.cs",
-              "RelativeDocumentMoniker": "ProxyServer\\Services\\RedisCacheService.cs",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\RedisCacheService.cs",
-              "RelativeToolTip": "ProxyServer\\Services\\RedisCacheService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:20:52.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LoadBalancerService.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\LoadBalancerService.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Services\\LoadBalancerService.cs",
@@ -292,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Repository\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "DWServer\\Repository\\IEmployeeRepository.cs",
@@ -304,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "DWServer\\Controllers\\EmployeeController.cs",
@@ -316,27 +341,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "DWServer\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Properties\\launchSettings.json",
-              "RelativeToolTip": "DWServer\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T20:28:18.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "DWServer",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
               "RelativeDocumentMoniker": "DWServer\\DWServer.csproj",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\DWServer.csproj",
               "RelativeToolTip": "DWServer\\DWServer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-24T20:21:19.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T20:21:19.609Z"
             }
           ]
         },
