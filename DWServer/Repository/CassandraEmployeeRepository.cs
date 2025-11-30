@@ -1,5 +1,6 @@
 ﻿using Cassandra;
 using Shared.Models;
+using DWServer.Services;
 
 namespace DWServer.Repositories
 {
@@ -8,15 +9,9 @@ namespace DWServer.Repositories
         private readonly Cassandra.ISession _session;
 
 
-        public CassandraEmployeeRepository()
+        public CassandraEmployeeRepository(CassandraService cassandra)
         {
-            // Conectare la Cassandra
-            var cluster = Cluster.Builder()
-                .AddContactPoint("cassandra")
-                .WithPort(9042)
-                .Build();
-
-            _session = cluster.Connect("pad");  // folosim keyspace-ul creat în docker
+            _session = cassandra.Session;
         }
 
         public async Task AddAsync(Employee employee)
@@ -33,35 +28,34 @@ namespace DWServer.Repositories
             ));
         }
 
-        public async Task<Employee?> GetByIdAsync(int id)
+        public async Task<Employee?> GetByIdAsync(Guid id)
         {
             var query = "SELECT * FROM employees WHERE id = ?";
-
             var result = await _session.ExecuteAsync(new SimpleStatement(query, id));
-            var row = result.FirstOrDefault();
 
+            var row = result.FirstOrDefault();
             if (row == null)
                 return null;
 
             return new Employee
             {
-                Id = row.GetValue<int>("id"),
+                Id = row.GetValue<Guid>("id"),
                 FirstName = row.GetValue<string>("firstname"),
                 LastName = row.GetValue<string>("lastname"),
                 Position = row.GetValue<string>("position"),
-                Salary = row.GetValue<double>("salary")
+                Salary = row.GetValue<double>("salary"),
             };
         }
 
         public async Task<List<Employee>> GetAllAsync(int offset, int limit)
         {
             var query = "SELECT * FROM employees";
-            var result = await _session.ExecuteAsync(new SimpleStatement(query));
+            var rows = await _session.ExecuteAsync(new SimpleStatement(query));
 
-            return result
+            return rows
                 .Select(row => new Employee
                 {
-                    Id = row.GetValue<int>("id"),
+                    Id = row.GetValue<Guid>("id"),
                     FirstName = row.GetValue<string>("firstname"),
                     LastName = row.GetValue<string>("lastname"),
                     Position = row.GetValue<string>("position"),

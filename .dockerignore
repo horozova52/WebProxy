@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userprefs
+**/*.launchSettings.json
+ProxyServer/Properties/launchSettings.json
+DWServer/Properties/launchSettings.json

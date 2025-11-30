@@ -1,0 +1,98 @@
+﻿using System;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using StackExchange.Redis;
+
+namespace ProxyServer.Services
+{
+    public class RedisCacheService
+    {
+        private readonly IDatabase? _db;
+        private readonly ILogger<RedisCacheService> _logger;
+        private readonly ConnectionMultiplexer? _mux;
+
+        public RedisCacheService(ILogger<RedisCacheService> logger)
+        {
+            _logger = logger;
+
+            var options = new ConfigurationOptions
+            {
+                EndPoints = { "redis:6379" },
+                AbortOnConnectFail = false,    // permite reconectarea
+                ConnectRetry = 5,              // încearcă de 5 ori
+                ConnectTimeout = 5000,         // până la 5 secunde pe încercare
+                SyncTimeout = 5000
+            };
+
+            // Retry loop synchronous but non-fatal: nu aruncăm din constructor dacă Redis nu e gata
+            int attempts = 5;
+            int delayMs = 2000;
+            ConnectionMultiplexer? mux = null;
+
+            for (int i = 0; i < attempts; i++)
+            {
+                try
+                {
+                    mux = ConnectionMultiplexer.Connect(options);
+                    if (mux != null && mux.IsConnected)
+                    {
+                        _logger.LogInformation("Connected to Redis successfully on attempt {Attempt}.", i + 1);
+                        break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogWarning(ex, "Attempt {Attempt} to connect to Redis failed.", i + 1);
+                }
+
+                Thread.Sleep(delayMs);
+            }
+
+            if (mux == null)
+            {
+                try
+                {
+                    // Last effort: try one more time but do not throw if fails; AbortOnConnectFail=false allows background reconnection
+                    mux = ConnectionMultiplexer.Connect(options);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Final attempt to connect to Redis failed. Continuing without cache; Redis should reconnect later.");
+                }
+            }
+
+            _mux = mux;
+            _db = _mux?.GetDatabase();
+        }
+
+        public async Task SetAsync(string key, object value, int ttlSeconds = 60)
+        {
+            if (_db == null)
+            {
+                _logger.LogWarning("Redis DB is not available. Set operation skipped for key {Key}.", key);
+                return;
+            }
+
+            var json = JsonSerializer.Serialize(value);
+            await _db.StringSetAsync(key, json, TimeSpan.FromSeconds(ttlSeconds));
+        }
+
+        public async Task<T?> GetAsync<T>(string key)
+        {
+            if (_db == null)
+            {
+                _logger.LogWarning("Redis DB is not available. Get operation returns default for key {Key}.", key);
+                return default;
+            }
+
+            var val = await _db.StringGetAsync(key);
+
+            if (val.IsNullOrEmpty)
+                return default;
+
+            return JsonSerializer.Deserialize<T>(val!);
+        }
+    }
+}

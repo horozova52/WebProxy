@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DWServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1edf240f5f6dc730954fbb99e2a46ff969a64c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d97e185acfaedc5448d0b9727380c61488555e53")]
 [assembly: System.Reflection.AssemblyProductAttribute("DWServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DWServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

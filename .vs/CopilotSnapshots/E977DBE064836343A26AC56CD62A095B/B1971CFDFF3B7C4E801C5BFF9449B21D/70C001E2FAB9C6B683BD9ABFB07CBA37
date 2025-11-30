@@ -1,0 +1,21 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+# optional tooling can be added in a separate stage if needed for debug; keep final image minimal
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ["ProxyServer/ProxyServer.csproj", "ProxyServer/"]
+RUN dotnet restore "ProxyServer/ProxyServer.csproj"
+COPY . .
+WORKDIR "/src/ProxyServer"
+RUN dotnet build "ProxyServer.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "ProxyServer.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "ProxyServer.dll"]

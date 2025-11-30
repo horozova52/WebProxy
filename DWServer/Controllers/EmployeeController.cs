@@ -8,46 +8,41 @@ namespace DWServer.Controllers
     [Route("[controller]")]
     public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeRepository _repository;
+        private readonly IEmployeeRepository _repo;
 
-        public EmployeeController(IEmployeeRepository repository)
+        public EmployeeController(IEmployeeRepository repo)
         {
-            _repository = repository;
+            _repo = repo;
         }
 
-        // GET /employee/1
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee?>> GetById(int id)
+        public async Task<ActionResult<Employee?>> GetById(Guid id)
         {
-            var emp = await _repository.GetByIdAsync(id);
-
+            var emp = await _repo.GetByIdAsync(id);
             if (emp == null)
                 return NotFound();
 
             return Ok(emp);
         }
 
-        // GET /employee?offset=0&limit=10
         [HttpGet]
         public async Task<ActionResult<List<Employee>>> GetAll([FromQuery] int offset = 0, [FromQuery] int limit = 10)
         {
-            var list = await _repository.GetAllAsync(offset, limit);
-            return Ok(list);
+            return Ok(await _repo.GetAllAsync(offset, limit));
         }
 
-        // PUT /employee
-        [HttpPut]
-        public async Task<IActionResult> Add([FromBody] Employee employee)
+        [HttpPost]
+        public async Task<IActionResult> Add(Employee employee)
         {
-            await _repository.AddAsync(employee);
+            employee.Id = Guid.NewGuid();
+            await _repo.AddAsync(employee);
             return Ok(employee);
         }
 
-        // POST /employee/update
-        [HttpPost("update")]
-        public async Task<IActionResult> Update([FromBody] Employee employee)
+        [HttpPut]
+        public async Task<IActionResult> Update(Employee employee)
         {
-            await _repository.UpdateAsync(employee);
+            await _repo.UpdateAsync(employee);
             return Ok("Updated");
         }
     }

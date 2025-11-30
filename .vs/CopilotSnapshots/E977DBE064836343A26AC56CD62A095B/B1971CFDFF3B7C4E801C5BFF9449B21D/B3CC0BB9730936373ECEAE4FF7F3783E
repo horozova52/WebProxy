@@ -1,0 +1,14 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "DWServers": [
+    "http://dwserver:5128",
+    "http://dwserver2:6001"
+  ],
+
+  "AllowedHosts": "*"
+}

@@ -13,7 +13,9 @@ namespace DWServer
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddSingleton<IEmployeeRepository, CassandraEmployeeRepository>();
+            builder.Services.AddSingleton<DWServer.Services.CassandraService>();
+
+            builder.Services.AddScoped<IEmployeeRepository, CassandraEmployeeRepository>();
 
             var app = builder.Build();
 
