@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\loadbalancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\loadbalancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\repository\\cassandraemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\repository\\cassandraemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|solutionrelative:proxyserver\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\dwserver\\repository\\cassandraemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E900DD56-FB80-4D87-9A67-BE876BB47CCA}|DWServer\\DWServer.csproj|solutionrelative:dwserver\\repository\\cassandraemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDCEF47F-A0D4-4E8A-BDB6-697AB1E0D5C5}|ProxyServer\\ProxyServer.csproj|d:\\univer-4\\pad\\lab2.pad\\webproxy\\proxyserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 610,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,32 +114,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProxyController.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Controllers\\ProxyController.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Controllers\\ProxyController.cs",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Controllers\\ProxyController.cs",
               "RelativeToolTip": "ProxyServer\\Controllers\\ProxyController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:23:06.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:23:06.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoadBalancerService.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\LoadBalancerService.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Services\\LoadBalancerService.cs",
               "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\LoadBalancerService.cs",
               "RelativeToolTip": "ProxyServer\\Services\\LoadBalancerService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T21:22:34.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RedisCacheService.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Services\\RedisCacheService.cs",
               "RelativeDocumentMoniker": "ProxyServer\\Services\\RedisCacheService.cs",
@@ -147,12 +146,11 @@
               "RelativeToolTip": "ProxyServer\\Services\\RedisCacheService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:20:52.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:20:52.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "DWServer\\Controllers\\EmployeeController.cs",
@@ -164,7 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
+              "RelativeDocumentMoniker": "ProxyServer\\Program.cs",
+              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
+              "RelativeToolTip": "ProxyServer\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:06:47.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CassandraEmployeeRepository.cs",
               "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\DWServer\\Repository\\CassandraEmployeeRepository.cs",
               "RelativeDocumentMoniker": "DWServer\\Repository\\CassandraEmployeeRepository.cs",
@@ -173,18 +184,6 @@
               "ViewState": "AgIAADUAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T20:58:55.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
-              "RelativeDocumentMoniker": "ProxyServer\\Program.cs",
-              "ToolTip": "D:\\Univer-4\\PAD\\Lab2.pad\\WebProxy\\ProxyServer\\Program.cs",
-              "RelativeToolTip": "ProxyServer\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T23:06:47.41Z"
             },
             {
               "$type": "Document",

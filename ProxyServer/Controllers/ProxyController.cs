@@ -11,14 +11,22 @@ namespace ProxyServer.Controllers
         private readonly LoadBalancerService _lb;
         private readonly RedisCacheService _cache;
         private readonly HttpClient _http;
+        private readonly ILogger<ProxyController> _logger;
 
-        public ProxyController(LoadBalancerService lb, RedisCacheService cache)
+        public ProxyController(
+            LoadBalancerService lb,
+            RedisCacheService cache,
+            ILogger<ProxyController> logger)
         {
             _lb = lb;
             _cache = cache;
+            _logger = logger;
             _http = new HttpClient();
         }
 
+        // ---------------------------------------
+        // GET employee/{id}
+        // ---------------------------------------
         [HttpGet("employee/{id}")]
         public async Task<IActionResult> GetEmployee(Guid id)
         {
@@ -26,9 +34,16 @@ namespace ProxyServer.Controllers
 
             var cached = await _cache.GetAsync<Employee>(cacheKey);
             if (cached != null)
+            {
+                _logger.LogInformation("CACHE HIT → {Key}", cacheKey);
                 return Ok(cached);
+            }
+
+            _logger.LogInformation("CACHE MISS → {Key}", cacheKey);
 
             var server = _lb.GetNextServer();
+            _logger.LogInformation("LB → Request routed to {Server}", server);
+
             var response = await _http.GetAsync($"{server}/employee/{id}");
 
             if (!response.IsSuccessStatusCode)
@@ -37,45 +52,50 @@ namespace ProxyServer.Controllers
             var emp = await response.Content.ReadFromJsonAsync<Employee>();
 
             await _cache.SetAsync(cacheKey, emp);
+            _logger.LogInformation("CACHE SET → {Key}", cacheKey);
 
             return Ok(emp);
         }
+
+        // ---------------------------------------
+        // GET employees
+        // ---------------------------------------
         [HttpGet("employees")]
-        public async Task<IActionResult> GetEmployees([FromQuery] int offset = 0, [FromQuery] int limit = 10)
+        public async Task<IActionResult> GetEmployees(
+            [FromQuery] int offset = 0,
+            [FromQuery] int limit = 10)
         {
             string cacheKey = $"emp_list_{offset}_{limit}";
 
-            // 1. Check Redis cache
             var cached = await _cache.GetAsync<List<Employee>>(cacheKey);
             if (cached != null)
+            {
+                _logger.LogInformation("CACHE HIT → {Key}", cacheKey);
                 return Ok(cached);
+            }
 
-            // 2. Take next DW server
+            _logger.LogInformation("CACHE MISS → {Key}", cacheKey);
+
             var server = _lb.GetNextServer();
+            _logger.LogInformation("LB → Request routed to {Server}", server);
 
-            // DWServer DOES NOT support offset/limit
+            // DWServer DOES NOT support offset/limit → full list
             var response = await _http.GetAsync($"{server}/employee");
 
             if (!response.IsSuccessStatusCode)
                 return StatusCode((int)response.StatusCode);
 
-            // Read the full list
             var allEmployees = await response.Content.ReadFromJsonAsync<List<Employee>>();
 
-            // 3. Pagination done here in Proxy
             var sliced = allEmployees
                 .Skip(offset)
                 .Take(limit)
                 .ToList();
 
-            // 4. Save to Redis
             await _cache.SetAsync(cacheKey, sliced);
+            _logger.LogInformation("CACHE SET → {Key}", cacheKey);
 
             return Ok(sliced);
         }
-
-
-
     }
-
 }
